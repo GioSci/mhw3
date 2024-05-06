@@ -1,0 +1,359 @@
+body{
+    margin: 0px;
+    background-color: #4242;
+}
+.hidden{
+    display: none;
+}
+nav{
+    height: 75px;
+    width: 100%;
+}
+    #grigio{
+        background-color: #575758;
+        height: 47%;
+        width: 100%;
+    }
+    #grigio_chiaro{
+        background-color: #656565;
+        height: 47%;
+        width: 100%;
+    }
+    #rosso{
+        background-color:red;
+        height: 6%;
+        width: 100%;
+    }
+
+
+
+#barra_pulsanti{
+    display: flex;
+    height: 75px;
+    width: 80%;
+    margin-top: -75px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+    #home{
+        display: flex;
+        height: 94%;
+        width: 13%;
+        background-color: #EFEFEF;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+        border-width: 0px;
+    }
+    #home img{
+        height: 35%;
+        width: 30%;
+    }
+    #home h1{
+        font-size: 80%; 
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+    }
+
+
+
+section{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 10% ; 
+    margin-right: 10%;
+}
+    header{
+        display: flex;
+        width: 100%;
+        height: 200px;
+        flex-shrink: 1;
+    }
+        #img2{
+        width: 40%;
+        height: 100%;
+        }
+        #img3{
+        width: 60%;
+        height: 100%;
+        }
+
+    #p_centrale
+    {
+        display: flex;
+        height: 100%;
+        width: 100%;
+    }
+        #colonna{
+            height: 100%;
+            width: 30%;
+            margin: 2%;
+        }
+            .parti{
+                width: 100%;
+                margin:1%
+            }
+            .parti h2{
+                font-family:Arial,verdana, Helvetica, sans-serif ;
+                font-size: 100%;
+                color:#1084a7;
+                border-bottom: 1px solid lightgray;
+            }
+            .parti label{
+                font-family:Arial,verdana, Helvetica, sans-serif ;
+                font-size: 90%;
+                color:#424242;
+                margin-left: 2%;
+            }
+            #anno{
+                width: 94%;
+                height: 23px;
+                border: 1px solid lightgray;
+                border-radius: 5px;
+                margin-left: 2%;
+                margin-right: 2%;
+            }
+            .accesso{
+                width: 94%;
+                height: 23px;
+                background-color: #e8f0fe;
+                border: 1px solid lightgray;
+                border-radius: 5px;
+                margin-left: 2%;
+                margin-right: 2%;
+            }
+            #box_bottone{
+                display: flex;
+                justify-content: end;
+            }
+            #entra{
+                display: flex;
+                width: 45px;
+                height: 28px;
+                background-color:rgb(228, 228, 228);
+                border: 1px solid gray;
+                border-radius: 5px;
+                margin: 3% 5%;
+                justify-content: center;
+                align-items: center;
+                text-decoration: none;
+                
+            }
+            #entra h1{
+                font-family:Arial,verdana, Helvetica, sans-serif ;
+                font-size: 80%;
+                color:gray;
+            }
+            .parti li:hover{
+                background-color: rgba(0,0,0,0.1);
+                color: rgb(154, 0, 0)
+            }
+            .parti li a{
+                text-decoration: none;
+                color: black;
+            }
+            .parti li a:hover{
+                color: rgb(130, 0, 0);
+            }
+            #info{
+                font-family: Arial, Helvetica, sans-serif;
+                background-image:-webkit-linear-gradient(bottom,white 0%,lightgray 100%);
+                border: 1px solid lightgray;
+                border-radius: 5px;
+                margin: 5px;
+                padding: 10px;
+            }
+                #info h2{
+                    font-size: 100%;
+                    margin-bottom: 0px;
+                }
+                #info p{
+                    margin-top: 0px;
+                }
+                .app{
+                    width: 120px;
+                    height: 48px;
+                }
+
+        #facoltà{
+            height: 100%;
+            width: 70%;
+            margin: 2%;
+            position: relative;
+        }
+            #facoltà h2{
+                font-size: 100%;
+                font-family: Arial,verdana, Helvetica, sans-serif;
+                color:red;
+                border-bottom: 1px solid lightgray;
+                width: 40%;
+            }
+            #facoltà li a{
+                text-decoration: none;
+                color:black;
+                font-family: Arial,verdana, Helvetica, sans-serif;
+                font-size: 80%;
+                font-weight: bold;
+            }
+            #facoltà li:hover{
+                background-color: rgba(0,0,0,0.1);
+            }
+            #facoltà li a:hover{
+                color: #1084a7;
+            }
+            #infoBox{
+                height: 50px;
+                width: 200px;
+                background-color:white;
+                border: 3px solid gold;
+                border-radius: 5px;
+                position: absolute;
+                z-index: 1;
+            }
+            #button_container{
+                margin-top: 30px;
+                display: flex;
+                justify-content: space-around;
+            }
+            #button_container button{
+                width: 30%;
+                border-radius: 20px;  
+            }
+            .b_blu{
+                background-color: #1084a7;
+                border: 1px solid white;
+                color: white;
+            }
+            .b_bianco{
+                background-color:white;
+                border: 1px solid #1084a7 ;
+                color: #1084a7;
+                
+            }
+            #infoBox text{
+                display: block;
+            }
+        li{
+            list-style-image: url(img/freccia.png);
+            margin-left: 2%;
+        }
+            
+
+    footer{
+        display: flex;
+        background-color: #424242;
+        height: 7%;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: end;
+    }
+        #div_foot{
+            display: flex;
+            width: 90%;
+            justify-content: space-between;
+        }
+        footer H1{
+            color: white;
+            font-size: 100%;
+            font-family: Arial,Verdana, Helvetica, sans-serif;
+        }
+        #linea
+        {
+            background-color: red;
+            width: 90%;
+            height: 2px;
+        }
+    #modal_view{
+        background-color: rgba(0,0,0,0.6);
+        position: fixed;
+        top:0;
+        left:0;
+        height: 100%;
+        width: 100%;
+        z-index: 2;
+
+    }
+    #box_libri{
+        background-color: white;
+        width: 70%;
+        height: 500px;
+        margin-top: 50px;
+        margin-left: 15vw;
+        padding: 10px;
+    }
+
+    #libreria{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 5px;
+        width: 100%;
+        height: 400px;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .libro{
+        margin: 1%;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        width: 20%;
+        height: 150px;
+        background-color: lightgray;
+
+    }
+    .libro img{
+        max-width: 80%;
+        max-height: 80%;
+
+    }
+
+        
+@media(max-width: 820px)
+{
+    #img3{
+        display: none;
+    }
+    #img2{
+        width: 100%;
+    }
+    #info{
+        display: none;
+
+    }
+    #p_centrale
+    {
+        flex-direction: column;
+
+    }
+    #colonna{
+        width: 80%;
+        margin: 10%;
+    }
+    #facoltà
+    {
+        width: 80%;
+         margin: 0% 10% 10% 10%;
+
+    }
+    #home h1{
+        display: none;
+    }
+    #barra_pulsanti{
+        width: 100%;
+        margin-left: 0%;
+        margin-right:0%;
+    }
+
+    section{
+        width: 100%;
+        margin-left: 0%;
+        margin-right:0%;
+    }
+
+    .b_blu{
+        display: none;
+    }
+}
